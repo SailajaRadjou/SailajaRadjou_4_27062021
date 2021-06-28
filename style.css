@@ -363,6 +363,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }    
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
