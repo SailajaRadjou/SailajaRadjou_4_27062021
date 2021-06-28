@@ -734,6 +734,7 @@ h4 {
     color: #333333!important;
 }
 
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -764,6 +765,7 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    color: yellow!important;
 }
 
 .bgc-white {
@@ -778,8 +780,13 @@ h4 {
     background-color: #F3976C;
 }
 
+.tc-yellow {
+    color: yellow!important;
+}
+
+
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
