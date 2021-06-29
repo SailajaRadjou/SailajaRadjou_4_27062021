@@ -1072,3 +1072,10 @@ h4 {
         padding: 10px 10px;
     }
 }
+.contact-email{
+    text-decoration: none;
+    color: blue!important;
+}
+.contact-email:hover{
+    text-decoration: underline;
+}
