@@ -93,29 +93,29 @@
 				<div class="col-sm-6">
 					<form action="includes/form_1.php" method="POST" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-							<label>
+							<label aria-label="Entrez votre nom & prénom">
 								Nom
 							</label>
 							<input id="name" class="form-control" placeholder="Enter your full name" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label aria-label="Entrez votre adresse email">
 								Adresse email
 							</label>
 							<input id="email" class="form-control" type="email" placeholder="Enter your e-mail id" required />
 						</div>
 						<div class="form-group">
-							<label>
-								Comment nous avez-vous connu ?
+							<label aria-label="Racontez nous Comment connaissez-vous notre agence">
+								Comment connaissez-vous La chouette agence?
 							</label>
 							<input class="form-control" type="text" placeholder="Can you tell us where you heard about our services?" required id="input_504" />
 						</div>
 						<div class="form-group">
-							<label>
+							<label aria-label="Parlez-nous votre projet">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 							</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Enter your message.." required></textarea>
 						</div> 
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Cliquez ici pour envoyer votre message">
 							Envoyer
 						</button>
 					</form>
