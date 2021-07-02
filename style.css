@@ -24,7 +24,12 @@ a:hover {
     font-size: 16px;
 }
 
-
+.image-resize-mode{
+    width: 100px;
+}
+.image-resize{
+    height: 50px;
+}
 .bloc {
     width: 100%;
     clear: both;
