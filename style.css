@@ -671,7 +671,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -694,7 +694,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    width: 500px;
+    padding: 10px;
     margin: auto auto auto auto;
 }
 
@@ -850,6 +851,7 @@ h4 {
         margin: 5px 8px;
         display: flex;
         padding: 10px;
+        width: 100%;
     }
     .icon-md{
         padding: 10px 10px;
