@@ -28,10 +28,10 @@
 	<script src="./js/gmaps.min.js" defer></script>
 	<noscript>Your browser does not support JavaScript!</noscript>
 	<!--Ajouter le titre-->
-    <title>La chouette agence | Entreprise web design Lyon | Pour créer des sites A à Z beau et bien structurés</title>    
+    <title>La chouette agence| Entreprise web design Lyon| Pour créer des sites A à Z</title>    
 	<!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-57PJN8ST3T"></script>
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-57PJN8ST3T"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -52,6 +52,7 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html" aria-label="Cliquez ici pour aller vers page d'Accueil">
+							<!-- Ajouter alt text & ARIA Label & ajouter l'image resize dans le css fichier -->
 							<img src="img/la-chouette-agence.png" alt="Entreprise web design Lyon, la meilleure agence  à Lyon" class="image-resize" />
 						</a>
 						<button id="nav-toggle" type="button" aria-label="Cliquez ici" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -63,6 +64,7 @@
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
+							<!-- Amélioration dans la navigation -->
 							<li>
 								<a href="#bloc-2-services" title="Savoir plus nos métiers" aria-label="Cliquez ici pour aller vers nos métiers">Nos Services</a>
 							</li>
@@ -79,11 +81,12 @@
 		</header>
 		<!-- Header section END -->
 
-		<!-- bloc-1-presentation -->
+		<!-- bloc-1-presentation ajouter les balises semantiques -->
 		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
+						<!-- Ajouter alt text correctement -->
 						<img src="img/logo.png" class="center-block image-resize-mode" alt="La chouette agence, agence web Lyon, création logo Lyon" />
 						<h1 class="text-center hero-bloc-text tc-white ">
 							La chouette agence
@@ -98,13 +101,14 @@
 		<!-- bloc-1-presentation END -->
 
 		<!-- bloc-2-services -->
+		<!-- ajouter les balises semantiques section header footer-->
 		<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 			<div class="container bloc-md">
-				<div class="row">
+				<header class="row">
 					<h2 class="col-sm-12 mg-md text-center">
 						La Chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.
 					</h2>
-				</div>
+				</header>
 				<div class="row voffset-lg med-width-whitespace">
 					<div class="col-sm-4">
 						<div class="text-center">
@@ -122,7 +126,7 @@
 							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 						</div>
 						<h3 class="mg-md text-center">
-							&nbsp;Stratégie
+							Stratégie
 						</h3>
 						<p class="text-center ">
 							Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
@@ -143,6 +147,7 @@
 				<div class="row voffset-lg voffset">
 					<footer class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 						<div class="mg-md text-center">
+							<!-- Supprimer img tag et ajouter les textes avec h2 & h3 tags  -->
 							<h2><em>
 								"La Chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."
 							</em></h2>
@@ -154,7 +159,7 @@
 		</section>
 		<!-- bloc-2-services END -->
 
-		<!-- bloc-3-what-i-do -->
+		<!-- bloc-3 ajouter la balise semantique section -->
 		<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
@@ -164,29 +169,32 @@
 						</h2>
 						<p class="text-center white">
 							Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
-							 <br><br><a class="bold-link tc-yellow" href="contact.html" aria-label="Cliquez ici pour nous contacter">Contactez notre équipe</a><br>
+							<!-- Ajouter ARIA Label & pour améliorer en visibilité changer la couleur dans le css fichier -->
+							<br><br><a class="bold-link tc-yellow" href="contact.html" aria-label="Cliquez ici pour nous contacter">Contactez notre équipe</a><br>
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- bloc-3-what-i-do END -->
-		
+		<!-- bloc-3 END -->
+		<!-- Ajouter ScrollToTop Button -->
 		<!-- ScrollToTop Button Start-->
 		<a class="bloc-button btn btn-d scrollToTop" aria-label="Cliquez ici pour aller en haut de la page" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up tc-yellow"></span></a>
 		<!-- ScrollToTop Button END-->
 
-		<!-- bloc-4-portfolio -->
+		<!-- bloc-4-portfolio ajouter la balise semantique section -->
 		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12 text-center">
+						<!-- Supprimer img tag et ajouter les textes avec h2 -->
 						<h2>Nous travaillons avec beaucoup de clients, voici quelques-une de nos réalisations</h2>
 					</div>
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/1.jpg" title="Pour voir l'image agrandir cliquez ici" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+							<!-- Ajouter alt text correctement -->
 							<img src="img/1.jpg" alt="Refonte d'un site web pour un journal local de Lyon" class="img-responsive portfolio-thumb" /></a>
 						<h3 class="mg-md text-center">
 							Refonte d'un site web pour un journal local
@@ -197,6 +205,7 @@
 					</div>
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/2.jpg" title="Pour voir l'image agrandir cliquez ici" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+							<!-- Ajouter alt text correctement-->
 							<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour les photographes locale" />
 						</a>
 						<h3 class="mg-md text-center">
@@ -210,6 +219,7 @@
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/3.jpg" title="Pour voir l'image agrandir cliquez ici" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+							<!-- Ajouter alt text correctement-->
 							<img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour voyageur"/>
 						</a>
 						<h3 class="mg-md text-center">
@@ -221,6 +231,7 @@
 					</div>
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/4.jpg" title="Pour voir l'image agrandir cliquez ici" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+							<!-- Ajouter alt text correctement-->
 							<img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour une agence de mariage de leurs prestations" />
 						</a>
 						<h3 class="mg-md text-center">
@@ -235,7 +246,7 @@
 		</section>
 		<!-- bloc-4-portfolio END -->
 
-		<!-- bloc-5-cta -->
+		<!-- bloc-5 ajouter la balise semantique section -->
 		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
@@ -243,39 +254,44 @@
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h2>
 					<div class="col-sm-12 text-center">
+						<!-- Ajouter ARIA Label ,title, target -->
 						<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" title="Contactez nos meilleures équipes" aria-label="Cliquez ici pour nous contacter" target="_self" rel="noopener noreferrer">Contactez - nous !</a>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- bloc-5-cta END -->
+		<!-- bloc-5 END -->
 
-		<!-- Footer - bloc-8 -->
+		<!-- Footer - bloc-8 ajouter la balise semantique footer -->
 		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
 						<h2 class="text-center white">
-							La chouette agence - Agence web basée à Lyon.<br>
+							La chouette agence - Agence web basée à Lyon<br>
 						</h2>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
+									<!-- Ajouter l'addresse lien de twitter, Arialabel-->
 									<a class="social" href="https://twitter.com/" target="_blank" aria-label="Cliquez ici pour connecter Twitter" rel="noopener noreferrer"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
+									<!-- Ajouter l'addresse lien de facebook, Arialabel-->
 									<a class="social" href="https://www.facebook.com/" target="_blank" aria-label="Cliquez ici pour connecter Facebook" rel="noopener noreferrer"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
+									<!-- Ajouter l'addresse lien de dribble, Arialabel-->
 									<a class="social" href="https://www.dribbble.com/" target="_blank" aria-label="Cliquez ici pour connecter Dribbble" rel="noopener noreferrer"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
+									<!-- Ajouter l'addresse lien de instagram, Arialabel-->
 									<a class="social" href="https://www.instagram.com/" target="_blank" aria-label="Cliquez ici pour connecter Instagram" rel="noopener noreferrer"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>

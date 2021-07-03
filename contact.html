@@ -14,6 +14,7 @@
 	<!--Autoriser l'indexation dans le moteur de recherche-->
 	<meta name="robots" content="index, follow">
 	<meta name="googlebot" content="index, follow">
+
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.min.css">
@@ -30,7 +31,7 @@
     <title>Contact | La Chouette Agence | Entreprise web design Lyon</title>   
 	<!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-57PJN8ST3T"></script>
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-57PJN8ST3T"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -41,13 +42,14 @@
 	<!-- Analytics END -->
 </head>
 <body>
-<!-- Principal conteneur -->
+<!-- Principal conteneur -- ajouter la balise sémantique main -->
 <main class="page-container">    
-	<!-- bloc-0 -->
+	<!-- bloc-0 ajouter la balise sémantique header -->
 	<header class="bloc bgc-white l-bloc " id="bloc-0">
 		<div class="container bloc-sm">
 			<nav class="navbar row">
 				<div class="navbar-header">
+					<!-- Ajouter alt text & ARIA Label & ajouter l'image resize dans le css fichier -->
 					<a class="navbar-brand" href="index.html" aria-label="Cliquez ici pour aller vers page d'Accueil">
 						<img src="img/la-chouette-agence.png" alt="Entreprise web design Lyon, la meilleure agence  à Lyon" class="image-resize" />
 					</a>
@@ -56,6 +58,7 @@
 					</button>
 				</div>
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<!-- amélioration dans la navigation -->
 					<ul class="site-navigation nav navbar-nav">
 						<li>
 							<a href="index.html" aria-label="Cliquez ici pour aller vers page d'Accueil">Accueil</a>
@@ -95,11 +98,14 @@
 	<section class="bloc bgc-white l-bloc" id="bloc-7">
 		
 		<div class="container bloc-lg">
+			<!-- Ajouter h2 tag -->
 			<h2><strong>  Contactez - nous : </strong></h2> <br>
 			<div class="row">
 				<div class="col-sm-6">
+					<!-- corrections des erreurs dans le form tag -->
 					<form action="includes/form_1.php" method="POST" id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
+							<!-- Ajouter ARIA label, Title, placeholder pour accessibilité-->
 							<label aria-label="Entrez votre nom & prénom">
 								Nom
 							</label>
@@ -129,6 +135,7 @@
 				</div>
 				<div class="col-sm-6">
 					<p>
+						<!--  un renvoi vers une adresse mail -->
 						<a class="contact-email" href="mailto:contact@lachouetteagence.com" aria-label="Envoyez-nous votre message par e-mail" title="Envoyez-nous votre message!">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</div>
@@ -147,26 +154,30 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h2 class="text-center white">
-						La chouette agence - Agence web basée à Lyon.<br>
+						La chouette agence - Agence web basée à Lyon<br>
 					</h2>
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
+								<!-- Ajouter l'addresse lien de twitter, Arialabel-->
 								<a class="social" href="https://twitter.com/" aria-label= "Cliquez ici pour connecter Twitter"  target="_blank" rel="noopener noreferrer"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
+								<!-- Ajouter l'addresse lien de Facebook, Arialabel-->
 								<a class="social" href="https://www.facebook.com/" aria-label="Cliquez ici pour connecter Facebook"  target="_blank" rel="noopener noreferrer"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
+								<!-- Ajouter l'addresse lien de dribble, Arialabel-->
 								<a class="social" href="https://www.dribbble.com/" aria-label="Cliquez ici pour connecter Dribbble"  target="_blank" rel="noopener noreferrer"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
+								<!-- Ajouter l'addresse lien de instagram, Arialabel-->
 								<a class="social" href="https://www.instagram.com/" aria-label="Cliquez ici pour connecter Instagram"  target="_blank" rel="noopener noreferrer"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
